@@ -54,8 +54,8 @@ set path_to_pack_tcl "./kernel/network_krnl"
 set words [split $device "_"]
 set board [lindex $words 1]
 
-if {[string compare -nocase $board "u280"] == 0} {
-set projPart "xcu280-fsvh2892-2L-e"
+if {[string compare -nocase $board "u250"] == 0} {
+set projPart "xcu250-figd2104-2l-e"
 } else {
     puts "Unknown board $board"
     exit 

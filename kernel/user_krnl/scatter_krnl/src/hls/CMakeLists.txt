@@ -21,7 +21,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/../../../
 #endif()
 
 
-set(FPGA_PART "xcu280-fsvh2892-2L-e" CACHE STRING "FPGA device")
+set(FPGA_PART "xcu250-figd2104-2l-e" CACHE STRING "FPGA device")
 set(NETWORK_BANDWIDTH 100 CACHE STRING "Network bandwidth")
 set(NETWORK_INTERFACE 100 CACHE STRING "Network bandwidth")
 set(DATA_WIDTH 64 CACHE STRING "Width of data path in bytes")

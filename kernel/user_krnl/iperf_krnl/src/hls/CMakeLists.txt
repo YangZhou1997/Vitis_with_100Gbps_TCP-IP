@@ -21,8 +21,8 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/../../cma
 #endif()
 
 if (NOT hasParent)
-   if (DEVICE_NAME STREQUAL "u280")
-      set(FPGA_PART xcu280-fsvh2892-2L-e)
+   if (DEVICE_NAME STREQUAL "u250")
+      set(FPGA_PART xcu250-figd2104-2l-e)
       set(FPGA_FAMILY ultraplus)
       set(NETWORK_BANDWIDTH 100 CACHE STRING "Network bandwidth")
    endif()

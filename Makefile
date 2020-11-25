@@ -33,7 +33,7 @@ ABS_COMMON_REPO = $(shell readlink -f $(COMMON_REPO))
 TARGET := hw
 HOST_ARCH := x86
 SYSROOT :=
-DEVICE ?= xilinx_u280_xdma_201920_3
+DEVICE ?= xilinx_u250_xdma_201830_2
 VITIS_PLATFORM := ${DEVICE}
 
 
@@ -87,7 +87,7 @@ endif
 
 # Linker params
 # Linker userPostSysLinkTcl param
-#ifeq ($(DEVICE),$(findstring $(DEVICE), u280))
+#ifeq ($(DEVICE),$(findstring $(DEVICE), u250))
 $(info $$DEVICE is [${DEVICE}])
 $(info $$POSTSYSLINKTCL is [${POSTSYSLINKTCL}])
 CLFLAGS += --advanced.param compiler.userPostSysLinkTcl=$(POSTSYSLINKTCL) #--xp param:compiler.userPostSysLinkTcl=$(POSTSYSLINKTCL)

@@ -46,7 +46,7 @@
 ############################################################
 #
 
-set __TCLID "(Post-linking U280 XDMA QSFP0 Tcl hook): "
+set __TCLID "(Post-linking U250 XDMA QSFP0 Tcl hook): "
 
 set __ip_list [get_property ip_repo_paths [current_project]]
 lappend __ip_list ${CMAKE_SOURCE_DIR}/build/fpga-network-stack/iprepo
