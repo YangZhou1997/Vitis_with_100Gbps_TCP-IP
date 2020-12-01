@@ -791,6 +791,7 @@ assign s_axis_mem_read_data[ddrPortNetworkTx].ready = axis_txread_data.ready;
 assign axis_txread_data.data = s_axis_mem_read_data[ddrPortNetworkTx].data;
 assign axis_txread_data.keep = s_axis_mem_read_data[ddrPortNetworkTx].keep;
 assign axis_txread_data.last = s_axis_mem_read_data[ddrPortNetworkTx].last;
+
 assign m_axis_mem_write_data[ddrPortNetworkTx].valid = axis_txwrite_data.valid;
 assign axis_txwrite_data.ready = m_axis_mem_write_data[ddrPortNetworkTx].ready;
 assign m_axis_mem_write_data[ddrPortNetworkTx].data = axis_txwrite_data.data;

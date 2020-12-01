@@ -1,0 +1,1 @@
+set_property generate_synth_checkpoint 0 [get_files *.xci]
